@@ -35,7 +35,6 @@ public class Email {
                     .setSubject(subject)
                     .send();
         } catch (Exception e) {
-            e.printStackTrace();
             throw new CommonException("erro.enviar.email", e);
         }
     }

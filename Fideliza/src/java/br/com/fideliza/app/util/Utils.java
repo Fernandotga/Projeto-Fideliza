@@ -14,7 +14,6 @@ public class Utils {
             byte[] bytes = text.getBytes("ISO-8859-1");
             text = new String(bytes, "UTF-8");
         } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
             return text;
         }
 
@@ -34,9 +33,7 @@ public class Utils {
 
             return hexBuild.toString();
         } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
         } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
         }
 
         return text;
