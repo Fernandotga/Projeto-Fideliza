@@ -1,0 +1,67 @@
+body, label, input[type="submit"], input[type="button"], input[type="text"], select, textarea {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.header {
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    float: left; 
+    width: 200px;
+    height:96px;
+}
+
+.title {
+    float: left;
+    padding-right: 10px;
+    padding-top: 50px;
+    font-size: 22px;
+    font-family: Georgia, Arial, sans-serif;
+    color: gray;
+}
+
+div#identification{
+    padding-top: 80px;
+    float: right;
+    padding-right: 50px;
+}
+
+div#content {
+    background-color: #FFF;
+    float: left;
+    min-height: 400px;
+    width: 1024px;
+}
+
+div#copy {
+    margin: 0 auto;
+    padding-top: 3px;
+    width: 1024px;
+}
+
+div#rodape {
+    background-color: #FFF;
+    clear: both;
+    height: 25px;
+    width: 1024px;
+}
+
+div#topo {
+    background-color: #fff;
+    height: 100px;
+    margin-bottom: 0px;
+    width: 1024px;
+}
+
+div#wrapper {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+a {
+    color: darkblue;
+}
