@@ -1,7 +1,7 @@
 <ul class="nav">
     <c:if test="${userSession.user == null}">
         <li class="active"><a href="/Fideliza/">Identificação</a></li> 
-        <li><a href="#">Cadastre-se</a></li> 
+        <li><a href="/Fideliza/empresa/criarEmpresa">Cadastre-se</a></li> 
         </c:if>
         <c:if test="${userSession.user != null}">
         <li><a href="/Fideliza/principal">Painel</a></li> |

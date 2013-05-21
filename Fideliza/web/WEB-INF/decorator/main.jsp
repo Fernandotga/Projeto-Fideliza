@@ -29,7 +29,7 @@
             <div class="header">
                 <div class="container">
                     <div id="topo">
-                        <%@ include file="/topo.jsp" %>
+                        <%@ include file="/header.jsp" %>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
 
             <div id="rodape">
                 <div class="container">
-                    <%@ include file="/rodape.jsp" %>
+                    <%@ include file="/footer.jsp" %>
                 </div>
             </div>
         </div>
