@@ -1,9 +1,9 @@
 <ul class="nav">
-    <c:if test="${userSession.user == null}">
+    <c:if test="${empresaSession.empresa == null}">
         <li class="active"><a href="/Fideliza/">Identificação</a></li> 
         <li><a href="/Fideliza/empresa/criarEmpresa">Cadastre-se</a></li> 
         </c:if>
-        <c:if test="${userSession.user != null}">
+        <c:if test="${empresaSession.empresa != null}">
         <li><a href="/Fideliza/principal">Painel</a></li> |
         <li><a href="#">Ofertas</a></li> 
         <li><a href="#">Fidelidade</a></li> 
